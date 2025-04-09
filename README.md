@@ -10,11 +10,12 @@ mtFFPECleaner is written in python
 ```
 
 ### Usage
+
 #### Please prepare the following inputs
 1.bam file
 
 2.mutation file
-> Include 5 column: sample chrom:pos ref-base alt-base mutation-frequency
+> Include 5 column —— sample | chrom:pos | ref-base | alt-base | mutation-frequency
 
 3.reference fasta
 
@@ -22,12 +23,13 @@ mtFFPECleaner is written in python
 
 5.train.csv
 
+
 #### Running
 ```shell
 python3 ../feature_extract.py \
     -b input.bam \
     -m mutation.txt \
-    -r /mnt/hdd/ref_data/modified_genome/hg19_mt.fa \
+    -r rCRS.fa \
     -i ref-info.txt \
     -t train.csv \
     -o predictions.txt
