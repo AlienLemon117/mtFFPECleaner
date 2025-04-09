@@ -3,10 +3,13 @@ A program to remove false-positive mutations in mitochondrial DNA from FFPE samp
 
 ## Getting Started
 mtFFPECleaner is written in python
+- Python 3.8+
+- 必需库：pysam, pandas, scikit-learn, numpy
 
 ### Installing
 ```shell
-
+git clone https://github.com/AlienLemon117/mtFFPECleaner.git
+cd mtFFPECleaner
 ```
 
 ### Usage
@@ -34,6 +37,15 @@ python3 ../feature_extract.py \
     -t train.csv \
     -o predictions.txt
 ```
+#### 参数说明
+|参数|说明|
+|:---|:---|
+|-b||
+|-m||
+|-r||
+|-i||
+|-t||
+|-o||
 
 #### Outputs
 A txt file
