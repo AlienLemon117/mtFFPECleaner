@@ -1,5 +1,7 @@
 # mtFFPECleaner
 A program to remove false-positive mutations in mitochondrial DNA from FFPE samples 
+> 📢 **Update Notice**  
+> This documentation is **continuously updated**. Check back frequently for the latest changes!
 
 ## Getting Started
 mtFFPECleaner is written in python
@@ -50,5 +52,4 @@ python3 ../feature_extract.py \
 #### Outputs
 A txt file includs 5 column ：unique_mutation_id | sample | predict_label | predict_probability
 
-> 📢 **Update Notice**  
-> This documentation is **continuously updated**. Check back frequently for the latest changes!
+
